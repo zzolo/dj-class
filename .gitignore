@@ -1,2 +1,2 @@
-!bower_components/jquery/dist/*
-!bower_components/minnpost-styles/dist/*
+!bower_components/jquery/dist
+!bower_components/minnpost-styles/dist
