@@ -30,6 +30,21 @@
         </div>
 
         <div class="project">
+          <h3>Process</h3>
+
+          <p>Our process loosely follows this, but there's lots of ebb and flow.</p>
+
+          <ul>
+            <li><strong>Idea</strong>.  This can come from many places such as a reporter, an editor, a dataset, or us.</li>
+            <li><strong>Plan</strong>.  Analyze data, draw, or prototype with or without code.</li>
+            <li><strong>Review</strong>.  Review plan with editors.</li>
+            <li><strong>Build</strong>.  Put it all together and make it work on the web.</li>
+            <li><strong>Test</strong>.  Make sure it works for everyone.</li>
+            <li><strong>Publish</strong>.  Turn the switch.</li>
+          </ul>
+        </div>
+
+        <div class="project">
           <h3>Hazmat in MN</h3>
 
           <ul>
@@ -37,8 +52,9 @@
             <li><a href="https://github.com/MinnPost/minnpost-hazmat">Code</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-hazmat#data">Data</a> from IRE</li>
             <li>Required cleanup such as manual fixes.</li>
+            <li>Did not start with a question, but just a large data set.</li>
             <li>Initial look and analysis of the data did not reveal any suprising or significant patterns.</li>
-            <li>As with most data there is lots of context that is not apparently or quantifiable.  Printer ink versus gasoline spill.</li>
+            <li>As with most data there is lots of context that is not apparent or quantifiable.  Printer ink versus gasoline spill.</li>
           </ul>
         </div>
 
@@ -60,9 +76,10 @@
           <ul>
             <li><a href="http://www.minnpost.com/crime">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-crime">Code</a></li>
+            <li>Inspired by some work at the Chicago Tribune, we wanted to make a crime dashboard, but wasn't sure where data would come from.  Aimed for both cities, but data was significantly different.</li>
             <li><a href="https://github.com/MinnPost/minnpost-crime#data">Data</a> from the Minneapolis PD, MN Compass, and City of Minneapolis.</li>
-            <li><a href="http://www.minnpost.com/data/2013/09/update-minneapolis-police-department-restores-accessible-data-format">Temporarily taken down</a>, coincidently right after we launched this.</li>
             <li>This is very <a href="http://www.minnpost.com/data/2013/08/introducing-minnposts-minneapolis-crime-app">limited, aggregated data</a>.</li>
+            <li><a href="http://www.minnpost.com/data/2013/09/update-minneapolis-police-department-restores-accessible-data-format">Temporarily taken down</a>, coincidently right after we launched this.</li>
           </ul>
         </div>
 
@@ -72,8 +89,9 @@
           <ul>
             <li><a href="http://www.minnpost.com/data/2014/03/are-these-temperatures-normal">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-climate">Code</a></li>
+            <li>Idea came from what seemed to be an exceptionally cold December in 2013.</li>
             <li><a href="https://github.com/MinnPost/minnpost-climate#data">Data</a> from NOAA and more.</li>
-            <li>Extremely difficult to get a complete set of data.</li>
+            <li>Extremely difficult to get a complete set of data; should have uses a source like Forecast.io in hindsight.</li>
           </ul>
         </div>
 
@@ -83,8 +101,10 @@
           <ul>
             <li><a href="http://www.minnpost.com/data/2014/09/minnesotas-most-competitive-house-districts">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-pvi-map-2014">Code</a></li>
+            <li>Having done this in 2012, we used this data internally to track which races are more likely going to be close, as well as provide a narrative about what races are likely close.</li>
             <li><a href="http://www.minnpost.com/data/2014/09/how-minnpost-calculates-political-leans-house-districts">PVI</a> calculated from election results from the MN SoS.</li>
             <li>Manual arrangement of districts.</li>
+            <li><a href="https://github.com/MinnPost/minnpost-pvi-map-2014/blob/master/Makefile">Data diary</a> (technical version).</li>
           </ul>
         </div>
 
@@ -94,17 +114,20 @@
           <ul>
             <li><a href="http://www.minnpost.com/results">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-elections-dashboard">Dashboard code</a> and <a href="https://github.com/MinnPost/minnpost-scraper-mn-election-results">scraper code</a>.</li>
-            <li>Data from MN SoS, supplemented from the MinnPost Boundary service, which uses data from many sources.</li>
+            <li>Data from MN SoS, supplemented from the <a href="http://boundaries.minnpost.com/">MinnPost Boundary service</a>, which uses data from many sources.</li>
+            <li>No real data analysis, just a better interface for <a href="http://electionresults.sos.state.mn.us/">existing data</a>.</li>
           </ul>
         </div>
 
         <div class="project">
-          <h3>Election night dashboard</h3>
+          <h3>Green line demographics</h3>
 
           <ul>
             <li><a href="http://www.minnpost.com/data/2014/06/who-lives-green-line">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-green-line-demographics">Code</a></li>
+            <li>For the Green line opening, we wanted to show something that described what kind of people lived on the line.</li>
             <li><a href="https://github.com/MinnPost/minnpost-green-line-demographics#data">Data</a> from MetroTransit, CensusReporter, and manually drawn.</li>
+            <li>Similar project <a href="https://github.com/MinnPost/minnpost-swlrt-demographics/blob/master/Makefile">data diary</a>.</li>
           </ul>
         </div>
 
@@ -114,7 +137,21 @@
           <ul>
             <li><a href="http://www.minnpost.com/data/2014/05/mapping-residential-parcel-values-twin-cities-metro">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-metro-parcels">Code</a></li>
+            <li>Driven by newly released datasets; previously, only parcel data that was at least 3 years old was released.</li>
             <li><a href="https://github.com/MinnPost/minnpost-metro-parcels#data">Data</a> from MetroTransit, Hennepin County, and Ramsey County.</li>
+            <li>Very difficult to standardize and combine data.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Snow emergency</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/snow">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-metro-parcels">Code</a></li>
+            <li>Wanted to make an interface that was more mobile friendly.</li>
+            <li><a href="http://apps.ci.minneapolis.mn.us/SnowMapApp/Default.aspx">Data and similar app</a> from City of Minneapolis.</li>
+            <li>The City was not very happy with our application.</li>
           </ul>
         </div>
 
@@ -124,7 +161,8 @@
           <ul>
             <li><a href="http://www.minnpost.com/data/2014/10/follow-money">Story</a></li>
             <li><a href="https://github.com/MinnPost/minnpost-2014-follow-the-money">Code</a></li>
-            <li><a href="https://github.com/MinnPost/minnpost-2014-follow-the-money#data">Data</a> fcollected from reports from the MN campaign finance board.</li>
+            <li>Reporter came to us with sketches and idea.</li>
+            <li><a href="https://github.com/MinnPost/minnpost-2014-follow-the-money#data">Data</a> collected from reports from the MN campaign finance board.</li>
           </ul>
         </div>
 
