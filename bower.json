@@ -1,0 +1,25 @@
+{
+  "name": "dj-class",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zzolo/dj-class",
+  "authors": [
+    "Alan Palazzolo <apalazzolo@minnpost.com>"
+  ],
+  "description": "A presentation, collection of links for data journalism class.",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "minnpost-styles": "~0.0.2"
+  },
+  "devDependencies": {
+    "html5-boilerplate": "~4.3.0"
+  }
+}
