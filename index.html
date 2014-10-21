@@ -10,16 +10,126 @@
     <meta name="description" content="A presentation, collection of links for data journalism class. ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <base target=”_blank” />
 
     <link rel="stylesheet" href="bower_components/minnpost-styles/dist/minnpost-styles.min.css">
     <link rel="stylesheet" href="styles/app.css">
   </head>
   <body class="mp">
 
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <div class="minnpost-page-container">
+      <div class="minnpost-full-container">
 
+        <p>A presentation, more a collection of links, describing some data projects at MinnPost.  This document can be found at:</p>
+        <p class="xxlarge"><a href="http://zzolo.org/dj-class/">zzolo.org/dj-class</a></p>
+
+        <div class="project">
+          <h3>Data vs. Visual</h3>
+
+          <p>The MinnData team focuses more on visual work, not necessarily data work.  This means that we want to create visual narratives, and most of the time we use data for this.  But there are plenty of data driven stories that don't have or require visual aspects, and plenty of visual pieces that aren't data driven.</p>
+        </div>
+
+        <div class="project">
+          <h3>Hazmat in MN</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/01/visualizing-hazmat-incidents-minnesota">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-hazmat">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-hazmat#data">Data</a> from IRE</li>
+            <li>Required cleanup such as manual fixes.</li>
+            <li>Initial look and analysis of the data did not reveal any suprising or significant patterns.</li>
+            <li>As with most data there is lots of context that is not apparently or quantifiable.  Printer ink versus gasoline spill.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Brides</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2013/12/minnesotas-bridges-are-good-shape-now">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-bridges">Code</a></li>
+            <li>Data requested from the MN DOT.</li>
+            <li>Understanding <a href="http://www.minnpost.com/sites/default/files/attachments/Measures%20Summary.pdf">bridge performance measures</a>.</li>
+            <li>"The original data supplied to MinnPost by MnDOT that was used to create the maps in this story contained errors. Changes in the standard MnDOT uses to calculate bridge load ratings caused some bridges to have lower structural condition ratings on the maps. We've since updated the maps with new data from MnDOT. The new data produced changed structural ratings for 112 of the 3,844 bridges appearing on the original map."</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Minneapolis crime</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/crime">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-crime">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-crime#data">Data</a> from the Minneapolis PD, MN Compass, and City of Minneapolis.</li>
+            <li><a href="http://www.minnpost.com/data/2013/09/update-minneapolis-police-department-restores-accessible-data-format">Temporarily taken down</a>, coincidently right after we launched this.</li>
+            <li>This is very <a href="http://www.minnpost.com/data/2013/08/introducing-minnposts-minneapolis-crime-app">limited, aggregated data</a>.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Temperatures</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/03/are-these-temperatures-normal">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-climate">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-climate#data">Data</a> from NOAA and more.</li>
+            <li>Extremely difficult to get a complete set of data.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>MN House political leaning</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/09/minnesotas-most-competitive-house-districts">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-pvi-map-2014">Code</a></li>
+            <li><a href="http://www.minnpost.com/data/2014/09/how-minnpost-calculates-political-leans-house-districts">PVI</a> calculated from election results from the MN SoS.</li>
+            <li>Manual arrangement of districts.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Election night dashboard</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/results">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-elections-dashboard">Dashboard code</a> and <a href="https://github.com/MinnPost/minnpost-scraper-mn-election-results">scraper code</a>.</li>
+            <li>Data from MN SoS, supplemented from the MinnPost Boundary service, which uses data from many sources.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Election night dashboard</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/06/who-lives-green-line">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-green-line-demographics">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-green-line-demographics#data">Data</a> from MetroTransit, CensusReporter, and manually drawn.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Metro parcels</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/05/mapping-residential-parcel-values-twin-cities-metro">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-metro-parcels">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-metro-parcels#data">Data</a> from MetroTransit, Hennepin County, and Ramsey County.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Outside spending</h3>
+
+          <ul>
+            <li><a href="http://www.minnpost.com/data/2014/10/follow-money">Story</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-2014-follow-the-money">Code</a></li>
+            <li><a href="https://github.com/MinnPost/minnpost-2014-follow-the-money#data">Data</a> fcollected from reports from the MN campaign finance board.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
